@@ -14,6 +14,26 @@
 		6B4795682B5DB6C6004A834D /* MogBattleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4795672B5DB6C6004A834D /* MogBattleTests.swift */; };
 		6B4795722B5DB6C6004A834D /* MogBattleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4795712B5DB6C6004A834D /* MogBattleUITests.swift */; };
 		6B4795742B5DB6C6004A834D /* MogBattleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4795732B5DB6C6004A834D /* MogBattleUITestsLaunchTests.swift */; };
+		6B4795882B5DB765004A834D /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4795872B5DB765004A834D /* SignupView.swift */; };
+		6B47958A2B5DB805004A834D /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4795892B5DB805004A834D /* InputView.swift */; };
+		6B47958D2B5DC243004A834D /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B47958C2B5DC243004A834D /* Validator.swift */; };
+		6B47958F2B5DECD7004A834D /* SignupPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B47958E2B5DECD7004A834D /* SignupPasswordView.swift */; };
+		6B4795952B62D0E6004A834D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B4795942B62D0E6004A834D /* GoogleService-Info.plist */; };
+		6B4795982B62D2A9004A834D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6B4795972B62D2A9004A834D /* FirebaseAuth */; };
+		6B47959A2B62D2A9004A834D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6B4795992B62D2A9004A834D /* FirebaseFirestore */; };
+		6B47959C2B62D2A9004A834D /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6B47959B2B62D2A9004A834D /* FirebaseFirestoreSwift */; };
+		6B47959E2B62D2A9004A834D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 6B47959D2B62D2A9004A834D /* FirebaseStorage */; };
+		6B4795A22B62D316004A834D /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4795A12B62D316004A834D /* AuthViewModel.swift */; };
+		6B4795A42B62D485004A834D /* SignupUsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4795A32B62D485004A834D /* SignupUsernameView.swift */; };
+		6B4795A62B62D8F3004A834D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4795A52B62D8F3004A834D /* LoginView.swift */; };
+		6B4795A82B62DA05004A834D /* NavButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4795A72B62DA05004A834D /* NavButton.swift */; };
+		6B4795AA2B62DF2A004A834D /* StartscreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4795A92B62DF2A004A834D /* StartscreenView.swift */; };
+		6B88C7442B62F63700371317 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B88C7432B62F63700371317 /* User.swift */; };
+		6B88C7492B6319E000371317 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B88C7482B6319E000371317 /* ProfileView.swift */; };
+		6B88C74D2B6331DE00371317 /* ValidationNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B88C74C2B6331DE00371317 /* ValidationNotificationView.swift */; };
+		6B88C7502B6402F300371317 /* VotingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B88C74F2B6402F300371317 /* VotingView.swift */; };
+		6B88C7542B6577E100371317 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B88C7532B6577E100371317 /* ImagePicker.swift */; };
+		6B88C7582B65A9BF00371317 /* StaticUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B88C7572B65A9BF00371317 /* StaticUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +64,22 @@
 		6B47956D2B5DB6C6004A834D /* MogBattleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MogBattleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B4795712B5DB6C6004A834D /* MogBattleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MogBattleUITests.swift; sourceTree = "<group>"; };
 		6B4795732B5DB6C6004A834D /* MogBattleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MogBattleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6B4795872B5DB765004A834D /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		6B4795892B5DB805004A834D /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		6B47958C2B5DC243004A834D /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		6B47958E2B5DECD7004A834D /* SignupPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPasswordView.swift; sourceTree = "<group>"; };
+		6B4795942B62D0E6004A834D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6B4795A12B62D316004A834D /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		6B4795A32B62D485004A834D /* SignupUsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupUsernameView.swift; sourceTree = "<group>"; };
+		6B4795A52B62D8F3004A834D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6B4795A72B62DA05004A834D /* NavButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavButton.swift; sourceTree = "<group>"; };
+		6B4795A92B62DF2A004A834D /* StartscreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartscreenView.swift; sourceTree = "<group>"; };
+		6B88C7432B62F63700371317 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6B88C7482B6319E000371317 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		6B88C74C2B6331DE00371317 /* ValidationNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationNotificationView.swift; sourceTree = "<group>"; };
+		6B88C74F2B6402F300371317 /* VotingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingView.swift; sourceTree = "<group>"; };
+		6B88C7532B6577E100371317 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		6B88C7572B65A9BF00371317 /* StaticUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +87,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B4795982B62D2A9004A834D /* FirebaseAuth in Frameworks */,
+				6B47959E2B62D2A9004A834D /* FirebaseStorage in Frameworks */,
+				6B47959A2B62D2A9004A834D /* FirebaseFirestore in Frameworks */,
+				6B47959C2B62D2A9004A834D /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +134,11 @@
 		6B4795552B5DB6C3004A834D /* MogBattle */ = {
 			isa = PBXGroup;
 			children = (
-				6B4795562B5DB6C3004A834D /* MogBattleApp.swift */,
-				6B4795582B5DB6C3004A834D /* ContentView.swift */,
+				6B4795942B62D0E6004A834D /* GoogleService-Info.plist */,
+				6B4795832B5DB6F4004A834D /* Model */,
+				6B4795822B5DB6ED004A834D /* App */,
+				6B4795812B5DB6D5004A834D /* Components */,
+				6B4795802B5DB6CE004A834D /* Core */,
 				6B47955A2B5DB6C5004A834D /* Assets.xcassets */,
 				6B47955C2B5DB6C5004A834D /* Preview Content */,
 			);
@@ -127,6 +170,115 @@
 			path = MogBattleUITests;
 			sourceTree = "<group>";
 		};
+		6B4795802B5DB6CE004A834D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6B88C7552B65A99100371317 /* Functionality */,
+				6B4795852B5DB73A004A834D /* Authentication */,
+				6B4795842B5DB703004A834D /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6B4795812B5DB6D5004A834D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6B88C7572B65A9BF00371317 /* StaticUIView.swift */,
+				6B88C7532B6577E100371317 /* ImagePicker.swift */,
+				6B4795892B5DB805004A834D /* InputView.swift */,
+				6B4795A72B62DA05004A834D /* NavButton.swift */,
+				6B88C74C2B6331DE00371317 /* ValidationNotificationView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6B4795822B5DB6ED004A834D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6B4795562B5DB6C3004A834D /* MogBattleApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6B4795832B5DB6F4004A834D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B88C7432B62F63700371317 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B4795842B5DB703004A834D /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				6B4795582B5DB6C3004A834D /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		6B4795852B5DB73A004A834D /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				6B47958B2B5DC204004A834D /* Validators */,
+				6B4795A02B62D2F6004A834D /* ViewModel */,
+				6B47959F2B62D2EA004A834D /* View */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		6B4795862B5DB741004A834D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				6B88C7482B6319E000371317 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		6B47958B2B5DC204004A834D /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				6B47958C2B5DC243004A834D /* Validator.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
+		6B47959F2B62D2EA004A834D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B4795872B5DB765004A834D /* SignupView.swift */,
+				6B47958E2B5DECD7004A834D /* SignupPasswordView.swift */,
+				6B4795A32B62D485004A834D /* SignupUsernameView.swift */,
+				6B4795A52B62D8F3004A834D /* LoginView.swift */,
+				6B4795A92B62DF2A004A834D /* StartscreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B4795A02B62D2F6004A834D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B4795A12B62D316004A834D /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6B88C74E2B6402E200371317 /* Voting */ = {
+			isa = PBXGroup;
+			children = (
+				6B88C74F2B6402F300371317 /* VotingView.swift */,
+			);
+			path = Voting;
+			sourceTree = "<group>";
+		};
+		6B88C7552B65A99100371317 /* Functionality */ = {
+			isa = PBXGroup;
+			children = (
+				6B4795862B5DB741004A834D /* Profile */,
+				6B88C74E2B6402E200371317 /* Voting */,
+			);
+			path = Functionality;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +295,12 @@
 			dependencies = (
 			);
 			name = MogBattle;
+			packageProductDependencies = (
+				6B4795972B62D2A9004A834D /* FirebaseAuth */,
+				6B4795992B62D2A9004A834D /* FirebaseFirestore */,
+				6B47959B2B62D2A9004A834D /* FirebaseFirestoreSwift */,
+				6B47959D2B62D2A9004A834D /* FirebaseStorage */,
+			);
 			productName = MogBattle;
 			productReference = 6B4795532B5DB6C3004A834D /* MogBattle.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +373,9 @@
 				Base,
 			);
 			mainGroup = 6B47954A2B5DB6C3004A834D;
+			packageReferences = (
+				6B4795962B62D2A8004A834D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 6B4795542B5DB6C3004A834D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +394,7 @@
 			files = (
 				6B47955E2B5DB6C5004A834D /* Preview Assets.xcassets in Resources */,
 				6B47955B2B5DB6C5004A834D /* Assets.xcassets in Resources */,
+				6B4795952B62D0E6004A834D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +419,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B4795882B5DB765004A834D /* SignupView.swift in Sources */,
+				6B88C74D2B6331DE00371317 /* ValidationNotificationView.swift in Sources */,
+				6B88C7582B65A9BF00371317 /* StaticUIView.swift in Sources */,
+				6B88C7542B6577E100371317 /* ImagePicker.swift in Sources */,
+				6B47958A2B5DB805004A834D /* InputView.swift in Sources */,
+				6B4795AA2B62DF2A004A834D /* StartscreenView.swift in Sources */,
+				6B4795A62B62D8F3004A834D /* LoginView.swift in Sources */,
+				6B47958D2B5DC243004A834D /* Validator.swift in Sources */,
+				6B4795A22B62D316004A834D /* AuthViewModel.swift in Sources */,
+				6B4795A42B62D485004A834D /* SignupUsernameView.swift in Sources */,
+				6B47958F2B5DECD7004A834D /* SignupPasswordView.swift in Sources */,
+				6B88C7442B62F63700371317 /* User.swift in Sources */,
 				6B4795592B5DB6C3004A834D /* ContentView.swift in Sources */,
 				6B4795572B5DB6C3004A834D /* MogBattleApp.swift in Sources */,
+				6B88C7502B6402F300371317 /* VotingView.swift in Sources */,
+				6B88C7492B6319E000371317 /* ProfileView.swift in Sources */,
+				6B4795A82B62DA05004A834D /* NavButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +599,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MogBattle/Preview Content\"";
+				DEVELOPMENT_TEAM = ATVUL63SYF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +628,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MogBattle/Preview Content\"";
+				DEVELOPMENT_TEAM = ATVUL63SYF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -582,6 +761,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6B4795962B62D2A8004A834D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.20.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6B4795972B62D2A9004A834D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B4795962B62D2A8004A834D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		6B4795992B62D2A9004A834D /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B4795962B62D2A8004A834D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		6B47959B2B62D2A9004A834D /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B4795962B62D2A8004A834D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		6B47959D2B62D2A9004A834D /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B4795962B62D2A8004A834D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6B47954B2B5DB6C3004A834D /* Project object */;
 }
